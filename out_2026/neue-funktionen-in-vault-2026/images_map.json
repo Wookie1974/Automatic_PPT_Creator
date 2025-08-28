@@ -1,0 +1,50 @@
+[
+  {
+    "idx": 1,
+    "filename": "img_01.png",
+    "url": "https://help.autodesk.com/view/VAULT/2026/DEU/images/product-title.png",
+    "alt": "Vault"
+  },
+  {
+    "idx": 2,
+    "filename": "img_02.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-1-copydesign-propertyedit.png",
+    "alt": ""
+  },
+  {
+    "idx": 3,
+    "filename": "img_03.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-1-vault-connector.png",
+    "alt": ""
+  },
+  {
+    "idx": 4,
+    "filename": "img_04.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-1-viewer-navigation.png",
+    "alt": ""
+  },
+  {
+    "idx": 5,
+    "filename": "img_05.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-thinclient-update.png",
+    "alt": ""
+  },
+  {
+    "idx": 6,
+    "filename": "img_06.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-enable-trashbin.png",
+    "alt": ""
+  },
+  {
+    "idx": 7,
+    "filename": "img_07.png",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2026-job-enhancement.png",
+    "alt": ""
+  },
+  {
+    "idx": 8,
+    "filename": "img_08.jpg",
+    "url": "https://help.autodesk.com/cloudhelp/2026/DEU/Vault-New/images/new-2025-searchcriterial-16-9-edited.jpg",
+    "alt": ""
+  }
+]

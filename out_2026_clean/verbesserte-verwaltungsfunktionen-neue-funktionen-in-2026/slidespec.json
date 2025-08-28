@@ -1,0 +1,68 @@
+{
+  "page_title": "Verbesserte Verwaltungsfunktionen (Neue Funktionen in 2026)",
+  "source_url": "https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500",
+  "slides": [
+    {
+      "title": "Overview",
+      "bullets": [
+        "Neu in Vault Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen 2026.1: Updates und Verbesserungen Neue Funktionen in früheren Versionen",
+        "Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen 2026.1: Updates und Verbesserungen",
+        "2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen",
+        "Verbesserte Verwaltungsfunktionen",
+        "Papierkorb",
+        "Verbesserungen bei der Archivierung",
+        "Verbesserungen am Job-Prozessor",
+        "Allgemeine Verbesserungen",
+        "Erfahren Sie mehr über die neuen Funktionen und Verbesserungen zur Verwaltung, die in dieser Version verfügbar sind."
+      ],
+      "images": [
+        {
+          "path": "images/img_01.png",
+          "caption": "Vault"
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500"
+    },
+    {
+      "title": "Verbesserungen bei Vault-Konten - Sicherheitsupdates",
+      "bullets": [
+        "Als Administrator können Sie jetzt die Option Deaktivieren am für Benutzerkonten aktivieren. Das Konto wird automatisch zum angegebenen Datum (basierend auf dem Serverdatum) deaktiviert. Eine Vault Ideas-Übermittlung"
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500"
+    },
+    {
+      "title": "Thin-Client-URL-Eigenschaft in E-Mail-Vorlage",
+      "bullets": [
+        "Sie können jetzt die Thin-Client-URL-Eigenschaft in der E-Mail-Vorlage hinzufügen oder entfernen. Weitere Informationen finden Sie unter E-Mail-Benachrichtigungsvorlage anpassen ."
+      ],
+      "images": [
+        {
+          "path": "images/img_02.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500"
+    },
+    {
+      "title": "Serverereignis Modus mit niedriger Priorität für die Prüfung der Eigenschaftenkonformität",
+      "bullets": [
+        "Der Modus mit niedriger Priorität wird vorgabemäßig während der Arbeitszeiten aktiviert.",
+        "Dieser Modus unterstützt jetzt die Überprüfung der Eigenschaftenkonformität.",
+        "Überprüfungen der Eigenschaftenkonformität können durch Änderungen an Eigenschaftsdefinitionen während der Arbeitszeiten ausgelöst werden."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500"
+    },
+    {
+      "title": "Kontaktdaten für Vault-Administratoren",
+      "bullets": [
+        "Der Administrator kann seine Kontaktinformationen im neuen Feld Wenden Sie sich an den Vault-Administrator in Vault Server eingeben.",
+        "Die Kontaktinformationen des Administrators werden Benutzern angezeigt, deren Benutzerkonto deaktiviert ist, und wenn sie versuchen, sich über Vault Client beim Server anzumelden.",
+        "Weitere Informationen finden Sie unter Globale Sicherheitseinstellungen ."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-AC8C6A07-2A29-4026-BC9E-ECE7AD635A3500"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "page_title": "Allgemeine Verbesserungen",
+  "source_url": "https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-9F3302FA-488B-4021-ADDE-DF0AC877298601",
+  "slides": [
+    {
+      "title": "Overview",
+      "bullets": [
+        "Hilfe-Startseite",
+        "Anmelden",
+        "Deutsch English (US) 简体中文 繁體中文 Čeština Deutsch Español Français Magyar Italiano 日本語 한국어 Polski Português (Brasil) Русский",
+        "English (US)",
+        "简体中文",
+        "繁體中文",
+        "Čeština",
+        "Deutsch",
+        "Español",
+        "Français",
+        "Magyar",
+        "Italiano",
+        "日本語",
+        "한국어",
+        "Polski",
+        "Português (Brasil)",
+        "Русский",
+        "Neu in Vault Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen 2026.1: Updates und Verbesserungen Neue Funktionen in früheren Versionen",
+        "Leistungen und Vorteile für Kunden mit Wartungsvertrag oder Vault-Abonnement",
+        "Versionshinweise zu Vault",
+        "Info über Vault",
+        "Haben Sie dies schon versucht?",
+        "Vault-Grundkenntnisse",
+        "Allgemeine Vault-Aufgaben",
+        "Vault-Administratoraufgaben",
+        "Bewährte Vorgehensweisen bei Autodesk Vault",
+        "Vault-Installation",
+        "Vault-Entwicklertools",
+        "Weitere Vault-Ressourcen",
+        "Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen 2026.1: Updates und Verbesserungen",
+        "Neue Funktionen in früheren Versionen",
+        "2026: Aktualisierungen und Verbesserungen Verbesserte Verwaltungsfunktionen Papierkorb Verbesserungen bei der Archivierung Verbesserungen am Job-Prozessor Allgemeine Verbesserungen",
+        "2026.1: Updates und Verbesserungen",
+        "Verbesserte Verwaltungsfunktionen",
+        "Papierkorb",
+        "Verbesserungen bei der Archivierung",
+        "Verbesserungen am Job-Prozessor",
+        "Allgemeine Verbesserungen",
+        "Sehen Sie sich einige der allgemeinen Verbesserungen am Vault Client an."
+      ],
+      "images": [
+        {
+          "path": "images/img_01.png",
+          "caption": "Vault"
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-9F3302FA-488B-4021-ADDE-DF0AC877298601"
+    },
+    {
+      "title": "Festlegen des Fokus für Verschiebevorgang",
+      "bullets": [
+        "Sie können nun den Vorgabe-Fokus für den Verschiebevorgang in der Vault Client-Benutzeroberfläche über Extras > Optionen angeben.",
+        "Vorgabemäßig befindet sich der Fokus für den Verschiebevorgang in Vault Client auf dem Zielverzeichnis. Weitere Informationen finden Sie unter Festlegen des Fokus für Verschiebevorgang ."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-9F3302FA-488B-4021-ADDE-DF0AC877298601"
+    },
+    {
+      "title": "Waren diese Informationen hilfreich?",
+      "bullets": [
+        "Ja",
+        "Nein",
+        "Datenschutz",
+        "Rechtliche Hinweise und Marken",
+        "Verstöße melden",
+        "© 2025 Autodesk Inc. Alle Rechte vorbehalten",
+        "Sofern nicht anders angegeben, wird dieses Produkt unter einer Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Unported-Lizenz bereitgestellt. Weitere Informationen finden Sie unter Autodesk Creative Commons FAQ ."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-9F3302FA-488B-4021-ADDE-DF0AC877298601"
+    }
+  ]
+}

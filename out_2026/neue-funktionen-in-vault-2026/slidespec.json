@@ -1,0 +1,175 @@
+{
+  "page_title": "Neue Funktionen in Vault 2026",
+  "source_url": "https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00",
+  "slides": [
+    {
+      "title": "Overview",
+      "bullets": [
+        "Hilfe-Startseite",
+        "Anmelden",
+        "Deutsch English (US) 简体中文 繁體中文 Čeština Deutsch Español Français Magyar Italiano 日本語 한국어 Polski Português (Brasil) Русский",
+        "English (US)",
+        "简体中文",
+        "繁體中文",
+        "Čeština",
+        "Deutsch",
+        "Español",
+        "Français",
+        "Magyar",
+        "Italiano",
+        "日本語",
+        "한국어",
+        "Polski",
+        "Português (Brasil)",
+        "Русский",
+        "Neu in Vault Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen 2026.1: Updates und Verbesserungen Neue Funktionen in früheren Versionen",
+        "Leistungen und Vorteile für Kunden mit Wartungsvertrag oder Vault-Abonnement",
+        "Versionshinweise zu Vault",
+        "Info über Vault",
+        "Haben Sie dies schon versucht?",
+        "Vault-Grundkenntnisse",
+        "Allgemeine Vault-Aufgaben",
+        "Vault-Administratoraufgaben",
+        "Bewährte Vorgehensweisen bei Autodesk Vault",
+        "Vault-Installation",
+        "Vault-Entwicklertools",
+        "Weitere Vault-Ressourcen",
+        "Neue Funktionen in Vault 2026 2026: Aktualisierungen und Verbesserungen 2026.1: Updates und Verbesserungen",
+        "Neue Funktionen in früheren Versionen",
+        "2026: Aktualisierungen und Verbesserungen",
+        "2026.1: Updates und Verbesserungen",
+        "Diese Version von Vault enthält von Ihnen und der Vault-Anwender-Community angeforderte Verbesserungen, die Ihnen eine deutlich schnellere Konstruktionserstellung und Datenverwaltung ermöglichen.",
+        "Erfahren Sie mehr über die neuen Funktionen in dieser Version von Vault. Technische Details finden Sie in den Versionshinweisen ."
+      ],
+      "images": [
+        {
+          "path": "images/img_01.png",
+          "caption": "Vault"
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Highlights des 2026.1 Update",
+      "bullets": [],
+      "images": [
+        {
+          "path": "images/img_02.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserungen an Arbeitsabläufen",
+      "bullets": [
+        "Entdecken Sie die neuen Funktionen und Verbesserungen in dieser Version, durch die die Effizienz Ihrer Arbeitsabläufe verbessert wird."
+      ],
+      "images": [
+        {
+          "path": "images/img_03.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserungen bei Verbindungen",
+      "bullets": [
+        "Nahtlose und effiziente Verbindung von Vault und Fusion Manage mit dem neuen Vault Connector"
+      ],
+      "images": [
+        {
+          "path": "images/img_04.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserungen bei Zusammenarbeit",
+      "bullets": [
+        "Entdecken Sie die neuen Funktionen und Verbesserungen in dieser Version, durch die die Zusammenarbeit verbessert wird."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Highlights der Version 2026",
+      "bullets": [],
+      "images": [
+        {
+          "path": "images/img_05.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserte Verwaltungsfunktionen",
+      "bullets": [
+        "Erfahren Sie mehr über die neuen Funktionen und Verbesserungen zur Verwaltung, die in dieser Version verfügbar sind."
+      ],
+      "images": [
+        {
+          "path": "images/img_06.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Papierkorb",
+      "bullets": [
+        "Als Administrator können Sie jetzt die Papierkorbfunktion aktivieren oder deaktivieren.",
+        "Die Papierkorbfunktion in Vault Professional bietet eine sichere Methode zum Verwalten des Löschvorgangs bei Objekten wie Dateien und Ordnern.",
+        "Diese Funktion ist vorgabemäßig aktiviert und ermöglicht es Benutzern, Objekte in den Papierkorb zu verschieben, anstatt sie dauerhaft zu löschen.",
+        "Dies reduziert das Risiko eines versehentlichen Datenverlusts und verbessert die Benutzerfreundlichkeit, indem Benutzer mehr Kontrolle über die Dateiverwaltung erhalten."
+      ],
+      "images": [
+        {
+          "path": "images/img_07.png",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserungen am Job-Prozessor",
+      "bullets": [
+        "Sie können Job-Ausführungen priorisieren und steuern, um Fehler besser zu verwalten, wenn Ihnen die Rolle Warteschleife reservieren zugewiesen ist."
+      ],
+      "images": [
+        {
+          "path": "images/img_08.jpg",
+          "caption": ""
+        }
+      ],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Verbesserungen bei der Archivierung",
+      "bullets": [
+        "2026: Aktualisierungen und Verbesserungen",
+        "2026.1: Updates und Verbesserungen",
+        "Als Administrator können Sie jetzt die Dateispeicherarchivierung für einen Tresor aktivieren und den Verzeichnispfad für die archivierte Datei angeben. Die neue Eigenschaft Archivierungsstatus ist für Ordner und Dateien verfügbar."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    },
+    {
+      "title": "Waren diese Informationen hilfreich?",
+      "bullets": [
+        "Ja",
+        "Nein",
+        "Datenschutz",
+        "Rechtliche Hinweise und Marken",
+        "Verstöße melden",
+        "© 2025 Autodesk Inc. Alle Rechte vorbehalten",
+        "Sofern nicht anders angegeben, wird dieses Produkt unter einer Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Unported-Lizenz bereitgestellt. Weitere Informationen finden Sie unter Autodesk Creative Commons FAQ ."
+      ],
+      "images": [],
+      "notes": "Source: https://help.autodesk.com/view/VAULT/2026/DEU/?guid=GUID-E7952218-BF45-4D4B-A497-781538FE792D00"
+    }
+  ]
+}
