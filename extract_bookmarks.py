@@ -5,6 +5,11 @@ from pptx.util import Inches
 from urllib.parse import urljoin
 import asyncio
 from playwright.async_api import async_playwright
+from collections import Counter
+from bs4 import BeautifulSoup
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 JS_GET_MAIN_AND_IMAGES = """
 () => {
@@ -58,7 +63,7 @@ async def render_and_extract(ctx, url: str) -> dict:
 def add_slide(prs, title, text, images):
     slide = prs.slides.add_slide(prs.slide_layouts[1])  # Title & Content
     slide.shapes.title.text = title
-    slide.placeholders[1].text = text[:1000]  # Limit text for demo
+    slide.placeholders[1].text = text  # No text limit
 
     # Add all images to the slide
     left = Inches(5)
@@ -110,7 +115,8 @@ async def main():
             urls = extract_urls(folder)
             break
 
-    prs = Presentation()
+    page_data_list = []  # List to store extracted info
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         ctx = await browser.new_context(viewport={"width":1400,"height":1600})
@@ -118,14 +124,56 @@ async def main():
             print(f"Processing: {url}")
             data = await render_and_extract(ctx, url)
             title = data.get("title") or url
-            # Extract text from HTML
-            from bs4 import BeautifulSoup
             soup = BeautifulSoup(data.get("html") or "", "lxml")
             main = soup.find("article") or soup.find("main") or soup.body
+
+            # Remove headers, footers, and social sharing sections
+            for tag in main.find_all(['header', 'footer']):
+                tag.decompose()
+            for tag in main.find_all(True, {'class': lambda x: x and any(k in x.lower() for k in ['share', 'social', 'footer', 'header'])}):
+                tag.decompose()
+            for tag in main.find_all(True, {'id': lambda x: x and any(k in x.lower() for k in ['share', 'social', 'footer', 'header'])}):
+                tag.decompose()
+
             text = main.get_text(separator="\n", strip=True) if main else ""
             images = [im["abs"] for im in data.get("images", []) if im.get("abs")]
-            add_slide(prs, title, text, images)
+            # Save info to list
+            page_data_list.append({
+                "url": url,
+                "title": title,
+                "text": text,
+                "images": images
+            })
         await ctx.close(); await browser.close()
+
+    # Save extracted data
+    with open("page_data_list.json", "w", encoding="utf-8") as f:
+        json.dump(page_data_list, f, ensure_ascii=False, indent=2)
+
+    def clean_text_with_ai(text):
+        prompt = (
+            "Remove any repetitive, boilerplate, or social sharing text (such as 'Share Email Facebook Twitter LinkedIn') "
+            "from the following webpage content. Return only the main, unique content:\n\n"
+            f"{text}"
+        )
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2048
+        )
+        return response.choices[0].message.content.strip()
+
+    # Clean all texts
+    for page in page_data_list:
+        page["text"] = clean_text_with_ai(page["text"])
+
+    # Save cleaned data
+    with open("page_data_list_cleaned.json", "w", encoding="utf-8") as f:
+        json.dump(page_data_list, f, ensure_ascii=False, indent=2)
+
+    prs = Presentation()
+    for page in page_data_list:
+        add_slide(prs, page["title"], page["text"], page["images"])
     prs.save("bookmarks_output.pptx")
     print("PowerPoint file created: bookmarks_output.pptx")
 
