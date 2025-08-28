@@ -128,12 +128,18 @@ async def ok_status(ctx, url):
 
 async def main():
     ap = argparse.ArgumentParser(description="Discover 'down-only' child pages from an Autodesk Help hub (shadow-aware).")
-    ap.add_argument("--hub", required=False, default="https://help.autodesk.com/view/VAULT/2026/ENU/?guid=WN-2026-UPDATES", help="Hub URL (What's New page)")
+    ap.add_argument("--hub", required=False, help="Hub URL (What's New page)")
     ap.add_argument("--out", required=False, default="whatsnew_children.csv", help="Output CSV filename")
     args = ap.parse_args()
 
     HUB = args.hub
-    ALLOW_PREFIX = hub_prefix(HUB)   # stay inside the same product/version/locale
+    if not HUB:
+        HUB = input("Please enter the Autodesk Help hub URL: ").strip()
+        if not HUB:
+            print("Error: Hub URL is required.")
+            return
+
+    ALLOW_PREFIX = hub_prefix(HUB)
     HUB_GUID = get_guid(HUB)
 
     async with async_playwright() as p:
